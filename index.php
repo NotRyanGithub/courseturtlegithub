@@ -48,11 +48,11 @@
 								header('Location: home.php?id='.$id);
 								}
 								else{
-									echo "<script>alert('Username or Password does not match.')</script>";
+									echo "<script>alert('Username or Password does not match.');window.location.href = 'index.php';</script>";
 								}
 							}
 							else{
-								echo "<script>alert('Username or Password does not match.')</script>";
+								echo "<script>alert('Username or Password does not match.');window.location.href = 'index.php';</script>";
 							}
 						}
 				 	}
